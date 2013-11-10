@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 gem 'json'
 gem 'unirest'
-gem 'nokogiri'
 
 group :test do
   gem 'pry'
