@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 gem 'json'
 gem 'unirest'
+gem 'rake'
 
 group :test do
   gem 'pry'
