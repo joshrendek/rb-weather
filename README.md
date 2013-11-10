@@ -1,4 +1,4 @@
-# RbWeather
+# RbWeather [![Build Status](https://travis-ci.org/joshrendek/rb-weather.png?branch=master)](https://travis-ci.org/joshrendek/rb-weather)
 
 A simple OpenWeatherMap client to interact with their current weather API
 
