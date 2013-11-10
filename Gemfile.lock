@@ -9,9 +9,6 @@ GEM
     json (1.8.1)
     method_source (0.8.2)
     mime-types (2.0)
-    mini_portile (0.5.2)
-    nokogiri (1.6.0)
-      mini_portile (~> 0.5.0)
     pry (0.9.12.3)
       coderay (~> 1.0)
       method_source (~> 0.8)
@@ -42,7 +39,6 @@ PLATFORMS
 
 DEPENDENCIES
   json
-  nokogiri
   pry
   rspec
   unirest
