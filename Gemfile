@@ -7,5 +7,5 @@ group :test do
   gem 'pry'
   gem 'rspec'
   gem 'vcr'
-  gem 'fakeweb'
+  gem 'webmock'
 end
