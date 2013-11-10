@@ -1,0 +1,43 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.openweathermap.org/data/2.5/weather?q=Clearwater,%20FL
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - '*/*; q=0.5, application/xml'
+      accept-encoding:
+      - gzip
+      user-agent:
+      - unirest-ruby/1.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      server:
+      - nginx
+      date:
+      - Sun, 10 Nov 2013 13:29:03 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '485'
+      x-cache:
+      - MISS from localhost
+      x-cache-lookup:
+      - MISS from localhost:3128
+      via:
+      - 1.1 localhost:3128 (squid/2.7.STABLE9)
+      connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |
+        {"coord":{"lon":-82.7998,"lat":27.9656},"sys":{"country":"United States of America","sunrise":1384084175,"sunset":1384123250},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"cmc stations","main":{"temp":292.833,"temp_min":292.833,"temp_max":292.833,"pressure":1033.41,"sea_level":1034.17,"grnd_level":1033.41,"humidity":100},"wind":{"speed":4.2,"deg":40.5013},"clouds":{"all":44},"dt":1384089713,"id":4151316,"name":"Clearwater","cod":200}
+    http_version: '1.0'
+  recorded_at: Sun, 10 Nov 2013 13:29:04 GMT
+recorded_with: VCR 2.7.0
